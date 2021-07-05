@@ -1,0 +1,44 @@
+
+body{
+ font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 40px;
+}
+.title-color{
+    color: burlywood;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.click-button{
+    text-decoration: none;
+    background-image: linear-gradient(burlywood, gray);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+
+.top-banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    padding-right: 20%;
+
+}
+
+
+
+
+
+
