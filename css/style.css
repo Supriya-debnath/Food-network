@@ -1,4 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+   display: inline-block;
+}
 
+ul,li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+
+}
+.menu ul li{
+    float: right;
+}
+.menu{
+    background: rgb(224, 52, 52);
+    height: 60px;
+}
+
+.menu ul li a{
+    padding-left: 20px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 60px;
+}
 body{
  font-family: 'Roboto Slab', serif;
 }
@@ -6,9 +38,9 @@ h1{
     font-size: 40px;
 }
 .title-color{
-    color: burlywood;
+    color: rgb(245, 182, 99);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -33,9 +65,75 @@ section{
 .top-banner{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    padding-right: 20%;
+    padding-right: 5%;
 
 }
+.reci{
+    text-align: center;
+}
+
+.img-part img{
+    width: 100%;
+    
+}
+.img-part{
+    padding: 20px 40px;
+}
+.reci-item{
+        margin: 30px;
+        width: 80%;
+        padding: 30px 30px;
+        background-color: white;
+        box-shadow: 10px 10px 20px #aaaaaa;
+        border-radius: 10%;
+}
+
+.rating{
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0 10px gray;
+    margin-left: 100px;
+}
+.footer-body{
+    text-align: center;
+}
+#footer{
+    background-color: rgb(4, 4, 41);
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: white;
+    margin-top: 5%;
+    
+}
+.color{
+    color: rgb(109, 97, 97);
+}
+.social-item{
+    width: 80%;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+.social-item h2{
+    margin-top: 1px;
+    color:rgb(113, 185, 31);
+}
+
+.review{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.client-img{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
 
